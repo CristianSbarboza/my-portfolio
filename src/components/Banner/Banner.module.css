@@ -1,0 +1,45 @@
+.ContainerBanner{
+    overflow: hidden;
+
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ContainerBanner .Banner{
+    position: absolute;
+    object-fit: cover;
+
+    width: 100%;
+    height: 30vh;
+
+    opacity: 0.2;
+
+    
+    
+}
+
+.ContainerTitle{
+    z-index: 55;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ContainerBanner h1{
+    font-size: 3rem;
+}
+
+.ContainerBanner h2{
+    font-size: 2rem;
+    color: #ddd;
+}

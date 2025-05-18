@@ -1,0 +1,36 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+
+    /* filter: grayscale(100%) blur(2px) brightness(0.8); */
+
+    z-index: 999;
+    position: fixed;
+}
+
+.nav a{
+    font-size: 2rem;
+    color: #ddd;
+
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+
+    font-weight: bold;
+    
+
+
+}
+
+.nav a:hover{
+    color: #fff;
+    scale: 1.1;
+
+}
+
+.footer{
+    
+    
+}

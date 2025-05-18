@@ -1,1 +1,54 @@
-.
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.imgProfile{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px blue solid;
+
+    animation: girar 5s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+
+
+.ParagrafoContainer{
+    text-align: center;
+    width: 45%;
+    margin-top: 2rem;
+}
+
+
+.ParagrafoContainer p{
+    font-size: 2rem;
+}
+
+.ParagrafoContainer p span{
+    font-weight: bold;
+}
+
+@keyframes girar {
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(180deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+.ContainerProjectHome{
+    width: 100%;
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+
+.ContainerProjectHome h2{
+    font-size: 3rem;
+    display: flex;
+    align-self: self-start;
+
+}
