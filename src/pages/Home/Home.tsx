@@ -38,9 +38,9 @@ const Home = () => {
       <section className={style.ContainerProjectHome} id='projetos'>
         <h2 className={style.titleSectionProject}>Projetos</h2>
         <div>
-          <Project urlImg={ConversorDeMedidasImg} titulo='Conversor de medidas aeronalticas' link='fuelcalculatoraeronautics.netlify.app'/>
+          <Project urlImg={ConversorDeMedidasImg} titulo='Conversor de medidas aeronalticas' link='https://fuelcalculatoraeronautics.netlify.app'/>
 
-          <Project urlImg={gereQrCodeImg} titulo='Gere QrCode' link='gereqrcode.netlify.app'/>
+          <Project urlImg={gereQrCodeImg} titulo='Gere QrCode' link='https://gereqrcode.netlify.app'/>
 
           <Project urlImg={ProjectHumsImg} titulo='Analise Hums AW139' link='https://github.com/CristianSbarboza/projectHums'/>
           
