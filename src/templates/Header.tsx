@@ -8,7 +8,7 @@ const Header = () => {
             <a href="#sobre">Sobre</a>
             <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
-            <a href='../../public/Cristian_Barboza_Curriculo_ATS.pdf' target="_blank" rel="noopener noreferrer">Currículo</a>
+            <a href='/Cristian_Barboza_Curriculo_ATS.pdf' target="_blank" rel="noopener noreferrer">Currículo</a>
         </nav>
     )
 }
