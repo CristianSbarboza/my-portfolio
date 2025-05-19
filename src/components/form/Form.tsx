@@ -1,9 +1,10 @@
-import React, { useRef, FormEvent } from 'react';
+import React, { useRef } from 'react';
+import type { FormEvent } from 'react';
 import emailjs from 'emailjs-com';
 
 import style from './Form.module.css'
 
-const ContactForm: React.FC = () => {
+const Form: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
@@ -16,10 +17,10 @@ const ContactForm: React.FC = () => {
     if (timeInput) timeInput.value = now;
 
     emailjs.sendForm(
-      'service_mfjcx5x',     
-      'template_inxu7y9',    
+      'service_mfjcx5x',
+      'template_inxu7y9',
       form.current,
-      'bXi07C0MohdYXRevl'  
+      'bXi07C0MohdYXRevl'
     )
     .then(() => {
       alert('Mensagem enviada com sucesso!');
@@ -36,13 +37,12 @@ const ContactForm: React.FC = () => {
       <input type="text" name="name" placeholder="Seu nome" required className={style.FormInput}/>
       <input type="email" name="user_email" placeholder="Seu e-mail" required className={style.FormInput}/>
       <textarea name="message" placeholder="Sua mensagem" required className={style.FormTextArea}/>
-
       <input type="hidden" name="time" />
-
       <button type="submit" className={style.FormButton}>Enviar</button>
     </form>
   );
 };
 
-export default ContactForm;
+export default Form;
+
 
