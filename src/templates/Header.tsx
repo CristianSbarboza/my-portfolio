@@ -1,13 +1,14 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import styele from './Templates.module.css'
 
 const Header = () => {
     return (
         <nav className={styele.nav}>
-            <Link to="/">Home</Link>
-            <Link to="/sobre">Sobre</Link>
-            <Link to="/projetos">Projetos</Link>
-            <Link to="/contato">Contato</Link>
+
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+            <a href='../../public/Cristian_Barboza_Curriculo_ATS.pdf' target="_blank" rel="noopener noreferrer">Currículo</a>
         </nav>
     )
 }

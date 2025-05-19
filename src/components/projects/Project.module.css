@@ -1,0 +1,56 @@
+.containerProjectCard{
+    background-color: #d3d3d3;
+
+    width: 30rem;
+    height: 40rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1rem;
+    
+    padding: 2rem;
+
+
+}
+
+.containerProjectCard img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 1rem;
+}
+
+
+.containerProjectCard h2{
+    font-size: 2rem;
+
+
+    margin-top: 1rem;
+    align-self: flex-start;
+
+
+    color: black;
+}
+
+.containerProjectCard a{
+    cursor: pointer;
+    color: black;
+
+    align-self: flex-start;
+
+    margin-top: 1rem;
+
+    text-decoration: underline;
+
+    font-size: 1.5rem;
+
+    transition: ease-in-out 0.3s;
+}
+
+.containerProjectCard a:hover{
+    color: rgb(110, 110, 255);
+
+    
+}

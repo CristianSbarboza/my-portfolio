@@ -1,18 +1,20 @@
-import type React from "react"
+
+
+import style from './Project.module.css'
 
 type ProjectProps = {
     urlImg: string,
     titulo: string,
-    Children?: React.ReactNode
+    link: string
 }
 
 export const Project = (props: ProjectProps) => {
     
     return(
-        <div>
+        <div className={style.containerProjectCard}>
             <img src={props.urlImg} alt="" />
-            <h1>{props.titulo}</h1>
-            {props.Children}
+            <h2>{props.titulo}</h2>
+            <a href={props.link} target="_blank">Acessar site</a>
         </div>
     )
 }
